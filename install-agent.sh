@@ -51,6 +51,10 @@ echo ""
 
 echo -e "${YELLOW}[1/4] 正在安装依赖...${NC}"
 
+# 设置为非交互模式，避免弹出提示
+export DEBIAN_FRONTEND=noninteractive
+export APT_LISTCHANGES_FRONTEND=none
+
 if command -v apt-get &> /dev/null; then
     apt-get update -qq
     apt-get install -y -qq python3 python3-pip iputils-ping traceroute mtr curl
