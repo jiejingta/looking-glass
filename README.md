@@ -1,4 +1,4 @@
-直接复制下面的内容（点击复制按钮），然后粘贴到 GitHub 的 `README.md` 文件中：
+# 个人测试项目
 
 ```markdown
 # Looking Glass - 多节点网络探测平台
